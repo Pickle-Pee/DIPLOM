@@ -1,0 +1,67 @@
+body {
+  font-family: 'McLaren', cursive;
+}
+
+.header_menu {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.header_menu .logo {
+  width: 350px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul li {
+  margin-right: 50px;
+}
+
+.nav-btn {
+  border: 2px solid #27509e;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #27509e;
+  font-family: 'McLaren', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  background-color: #27519e00;
+}
+
+.nav-btn:hover {
+  -webkit-box-shadow: 0 0 0 2px white, 0 0 0 4px #27509e;
+          box-shadow: 0 0 0 2px white, 0 0 0 4px #27509e;
+  background-color: #fff;
+  color: #27509e;
+}
+
+.open_img {
+  width: 70px;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=style.css.map */

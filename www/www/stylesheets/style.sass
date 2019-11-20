@@ -1,0 +1,55 @@
+body
+    font-family: 'McLaren', cursive
+    position: relative
+
+.header_menu
+    background-color: #fff
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    display: flex
+    .logo
+        width: 350px
+        margin: 0
+
+ul
+    list-style: none
+    justify-content: center
+    display: flex
+    li
+        margin-right: 50px
+        cursor: pointer
+
+.nav-btn
+    border: 2px solid#27509e
+    align-self: flex-start
+    color: #27509e
+    font-family: 'McLaren', cursive
+    text-transform: uppercase
+    font-weight: bold
+    transition: .5s
+    border-radius: 25px
+    width: 150px
+    height: 50px
+    background-color: #27519e00
+    &:hover
+        box-shadow: 0 0 0 2px white, 0 0 0 4px #27509e
+        background-color: #fff
+        color: #27509e
+        
+.open_img
+    width: 70px
+    margin-top: -20px
+
+.nav-menu
+    display: flex
+    align-items: center
+    justify-content: center
+    top: 0
+    transition: .5s
+    transform: translateY(-100%)
+
+.nav-menu_active
+     transform: translateY(0%)
